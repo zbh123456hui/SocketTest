@@ -7,7 +7,7 @@
 
 #define P_FIFO "/tmp/p_fifo"
 
-int main(int argc,char **argv){
+int main(int argc,const char **argv){
     char cache[100];
     int fd;
     memset(cache,0,sizeof(cache)); /*初始化内存*/
