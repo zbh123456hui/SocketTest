@@ -21,7 +21,7 @@ int main(int argc, const char** argv) {
         fprintf(stderr,"shamt failed\n");
         exit(EXIT_FAILURE);
     }
-    printf("Memory attached at %X\n",(long)shared_memory);
+    printf("Memory attached at %lX\n",(long)shared_memory);
     struct shared_use_st *shared_stuff;
     shared_stuff=(struct shared_use_st*)shared_memory;
     int running=1;
