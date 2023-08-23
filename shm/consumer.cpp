@@ -16,6 +16,9 @@ int main(int argc, const char** argv) {
     }
     void* shared_memory=(void*)0;
     shared_memory=shmat(shmid,(void*)0,0);
+    if(shared_memory==(void*)-1){
+        
+    }
 
     return 0;
 }
