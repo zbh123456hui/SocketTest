@@ -60,7 +60,7 @@ int main(int argc, char** argv){
         close(connfd);
         return 0;
     }else{
-        printf("write success, writelen :%d, sendMsg:%s\n",writeLen,sendMsg);
+        printf("write success, writelen :%d, sendMsg:%s\n",(int)writeLen,sendMsg);
     }
 
     char readMsg[10]={0};
