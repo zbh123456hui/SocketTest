@@ -70,7 +70,7 @@ int main(int argc, char* argv[]){
         close(connfd);
         return 0;
     }else{
-        printf("write success, writelen :%d, iLen:%d, pBuff: %s\n", writeLen,iLen,pBuff);
+        printf("write success, writelen :%ld, iLen:%d, pBuff: %s\n", writeLen,iLen,pBuff);
     }
 
     close(connfd);
